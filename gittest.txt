@@ -50,5 +50,9 @@ git branch命令查看当前分支
 /////////////////////////
 dev分支的工作成果合并到master分支上：
 $ git merge dev
+***git merge --no-ff -m "merge with no-ff" dev		//保留历史分支修改版本记录
 删除dev分支了：
 $ git branch -d dev
+////////////////////////
+git stash 工作现场储存
+git stash pop 工作现场恢复并删除储存的现场
