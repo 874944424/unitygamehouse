@@ -39,3 +39,16 @@ git checkout -- 文件名 撤销 工作区 文件修改
 取消回滚删除操作 git checkout -- 文件名
 ///////////////////
 本地操作文件提交到网上 git push origin master
+添加文件到远程: git remote add origin git@github.com:michaelliao/learngit.git
+远程克隆版本： git clone git@github.com:michaelliao/gitskills.git
+/////////////////
+分支创建:	git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
+git branch命令查看当前分支
+/////////////////////////
+dev分支的工作成果合并到master分支上：
+$ git merge dev
+删除dev分支了：
+$ git branch -d dev
