@@ -21,3 +21,12 @@ git commit -m "add 2 files."
 git status
 查看差异
 git diff
+////////////////////////////
+查看历史版本
+git log
+回滚版本
+git reset --hard HEAD~100 之前100的版本
+git reset --hard HEAD^^ 上上个版本 HEAD^上个版本 HEAD 当前版本 
+git reset --hard 3628164 3628164是指定版本号
+//////////////
+git reglog 控制命令历史记录
